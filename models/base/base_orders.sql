@@ -6,7 +6,7 @@ orders as (
         , user_id as customer_id 
         , order_date 
         , status 
-    from raw.jaffle_shop.orders 
+    from {{ source('jaffle_shop', 'orders') }} 
 )
 
 select * from orders
