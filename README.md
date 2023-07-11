@@ -1,1 +1,1 @@
-NYC TLC Trip Pipeline using dbt & SnowFlake
+Jaffle shou pipeline using dbt & Snowflake datawarehouse
